@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+	<title>JS Practice 2</title>
+
+	<script type="text/javascript">
+		function check_ans() {
+			var ans, flag ;
+			flag = false ; 
+			ans = prompt("Do you agree 5 > 4 ? ");
+
+			while (!flag) {
+
+				if (ans.indexOf("y")==0) {
+					flag = true ;
+					alert("You're right") ;
+					break ;
+				}
+				ans = prompt("Think again dumbass. Is 5 > 4?") ;
+			}
+		}
+	</script>
+
+</head>
+
+<body>
+	<p>Practicing JS</p>
+	<script type="text/javascript">
+		check_ans() ;
+	</script>>
+</body>

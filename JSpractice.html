@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+	<title>Fiddling with JS</title>
+
+	<script>
+		var username ;
+		username = "Ashok" ;
+		//username = prompt("What is your name?"); 
+		document.write("Hello "+ username + ".") ;
+		
+		function greet() {
+			alert("Hello user!");
+		} 
+
+		function validation() {
+			if (check_age() < 20)
+			{
+				alert("Please get lost!")
+			}
+		}
+
+		function check_age() {
+			var age;
+			age = prompt("What is your age?") ;
+			return age ;
+		}
+	</script>
+
+</head>
+<body onload="greet(); validation()"> 
+	
+	<p>This is a line</p>
+
+	<!--<script type="text/javascript">
+		alert("A warning.");
+		prompt("You accept the terms and conditions");
+	</script>-->
+
+</body>
